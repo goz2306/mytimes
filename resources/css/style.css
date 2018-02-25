@@ -11,6 +11,9 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+div{
+  border: 1px solid black;
+}
 .logo{
   display: flex;
   align-items: center;
@@ -44,10 +47,13 @@ body {
 main{
   display:flex;
   padding-top:100px;
+  width: 1260px;
+  margin: 0 auto;
 }
 .column{
   display:flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .column.large{
   width: 630px;
@@ -57,31 +63,4 @@ main{
 }
 .column.small{
   width: 240px;
-}
-.story-image{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-.lead-story.story-image{
-  background-image: url("../images/img-story-main.png");
-  width: 630px;
-  margin-top: 0;
-  text-align: left;
-  font-size: 40px;
-}
-.earth{
-  background-image: url("../images/img-story-2.png");
-}
-.camera{
-  background-image: url("../images/img-story-3.png");
-}
-.cat{
-  background-image: url("../images/img-story-1.png");
 }
